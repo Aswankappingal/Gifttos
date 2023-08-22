@@ -1,0 +1,232 @@
+/* body{
+
+} */
+     /* heading sections  */
+.main-section{
+    text-align: center;
+    
+}
+.main-section h3{
+    font-weight: 750;
+    margin-top: 20px;
+}
+        /* navbar section  */
+.navbar{
+    background-color:#f9ece6;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 20px;
+    border: 1px solid #f9ece6;
+  
+}
+    /* home only  */
+#change-section{
+    background-color: #ffffff;
+    padding: 5px 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+     /* contents  */
+.nav-main{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.nav-main a span{
+    color: black;
+}
+.nav-main a :hover{
+    color: black;
+}
+   /* no need gift head  */
+.nav-gifts{
+    display:none;
+}
+
+    /* banner-section  */
+.pink-banner{
+    background-color: #f896ab;
+    height: 650px;
+    display: flex;
+}  
+ /* 1st sections */
+
+.pink-banner-contents{
+    margin-top: 12%;
+    margin-left: 5%;
+    color: aliceblue;
+    width: 70%;
+}
+.pink-banner-contents h3{
+    font-size: 56px;
+    font-weight: 780;
+    font-weight: bold;
+    margin-top: 2px;   
+}
+.pink-banner-contents p{
+    font-size: 17px;
+    text-align: justify;
+    width: 70%;
+    margin-top: 15px;
+}
+.pink-banner-contents a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #db4566;
+    color: #ffffff;
+    border: 1px solid #db4566;
+    border-radius: 5px;
+    
+}
+.pink-banner-contents a:hover{
+    background-color: transparent;
+    color: #db4566;
+    border: 1px solid #db4566;
+}
+.links-only{
+    margin-top: 4%;
+}  
+         /* 2nd session  */
+         /* images   */
+.pink-images{
+    width: 30%;
+    margin-top: 5%;
+}
+     /* head latest  */
+.latest{
+    text-align: center;
+    margin-top: 2%;
+
+}
+.latest h2{
+    font-size: 31px;
+    font-weight: 700;
+}
+ /* cards section  */
+ .cards-only{
+    background-color:#f9ece6;
+    width: 25%;
+    height: 300px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:330px) and (max-width:575.98px){
+         /* heading sections  */
+.main-section{
+    display: none;  
+}    
+             /* navbar section  */
+    /* home  */
+#change-section{
+    background-color: #ffffff;
+    padding: 2px 2px;
+    width: 40%;
+    margin-left: 30%;
+   
+}
+.nav-main{
+    display: inline;
+    /* justify-content: center; */
+    text-align: center;
+    gap: 13px;
+    margin-top: 15px;
+    
+}
+.nav-main a{
+    color: black;
+}
+.nav-gifts{
+    font-weight: 750;
+    display:inline;
+    font-size: 26px;
+    letter-spacing: 1px;
+    
+}
+.nav-main a span{
+    color: black;
+}
+.nav-main a :hover{
+    color: black;
+}
+  /* nav full  */
+  .navbar{
+    background-color:#f9ece6;
+    display: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 20px;
+    border: 1px solid #f9ece6;
+  
+}
+
+     /* nav sectction complete  */
+
+    /* pink-sections  */
+    .pink-banner{
+        background-color: #f896ab;
+        height: auto;
+        display: inline-block;
+    } 
+    .pink-banner-contents{
+        margin-top: 20%;
+        margin-left: 5%;
+        color: aliceblue;
+        width: 100%;
+        text-align: center;
+    }
+    .pink-banner-contents h3{
+        font-size: 32px;
+        font-weight: 680;
+        font-weight: bold;
+        margin-top: 2px; 
+          
+    }
+    .pink-banner-contents p{
+        font-size: 19px;
+        text-align: center;
+        /* width: 100%; */
+        margin-top: 15px;
+        margin-left: 14%;
+    }
+    .pink-banner-contents a{
+        text-decoration: none;
+        padding: 5px 60px;
+        background-color: #db4566;
+        color: #ffffff;
+        border: 1px solid #db4566;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+    .pink-banner-contents a:hover{
+        background-color: transparent;
+        color: #db4566;
+        border: 1px solid #db4566;
+    }
+    .links-only{
+        margin-top: 10%;
+    } 
+    .pink-images{
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+    .pink-images img{
+        width: 80%;
+    }
+    /* .full{
+        border: 1px solid red;
+    } */
+    .latest{
+        text-align: center;
+    }
+
+}
