@@ -48,6 +48,7 @@
     background-color: #f896ab;
     height: 650px;
     display: flex;
+    border-radius: 0px 0px 15px 15px;
 }  
  /* 1st sections */
 
@@ -95,19 +96,301 @@
      /* head latest  */
 .latest{
     text-align: center;
-    margin-top: 2%;
+    margin-top: 5%;
 
 }
 .latest h2{
     font-size: 31px;
     font-weight: 700;
 }
- /* cards section  */
+ /* cards section  main*/
  .cards-only{
-    background-color:#f9ece6;
-    width: 25%;
-    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 3%;
  }
+  /* cards only sec  */
+ .cards-one{
+    background-color:rgb(236, 236, 236);
+    width: 18%;
+    height: 300px;
+    
+ }
+ /* down section  */
+.price{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    font-weight: 600;
+    /* border: 1px solid red; */
+    margin-top: 15%;
+    
+}
+  /* full contents only  */
+.products{
+    position: relative;
+    cursor: pointer;
+   
+}
+/* new round  */
+.new-label{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 100%;
+ }
+.prices span{
+    color: red;
+    font-weight: 400;
+ 
+   /* images full     */
+}
+.img-one{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 32%;
+
+}
+.img-two{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 30%; 
+}
+.img-three{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 32%; 
+}
+.img-four{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 40%; 
+
+}
+.img-five{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30%; 
+
+}
+.img-six{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 29%; 
+}
+.img-seven{
+    width: 40%;
+    margin-left: 28%;
+    margin-top: 34%; 
+}
+.img-eight{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 28%; 
+}
+     /* View All products  */
+     .view-all{
+        text-align: center;
+        margin-top: 4%;
+     }
+     .view-all a{
+        text-decoration: none;
+        color: white;
+        border: 1px solid #e3617d;
+        background-color: #e3617d;
+        width: 50%;
+        padding: 6px 48px;
+        border-radius: 5px 5px 2px 2px;
+     }
+     .view-all a:hover{
+         color: #d1516d;
+         background-color: transparent;
+     }
+      /* blue -banner section   */
+     .blue-banner-main{
+        background-color: #7fd7eb;
+        height: 480px;
+        border-radius: 12px 12px 12px 12px;
+        margin-top: 6%;
+        display: flex;
+        /* width: 100%;
+        justify-content: space-between; */
+     } 
+      /* contents only  */
+     .blue-banner-right-contents{
+        margin-top: 10%;
+        width: 45%;
+        color: #fff;
+     }
+     .blue-banner-right-contents h3{
+         font-size: 35px;
+         font-weight: 700;
+     } 
+     .blue-banner-right-contents p{
+        font-size: 17px;
+        font-weight: 400;
+        
+     }
+      /* images   */
+     .blue-images-left{
+        width: 50%;
+        margin-top: 5%;
+        margin-left: 2%;
+     }
+     /* link only  */
+     .blue-banner-links{
+        display: flex;
+        gap: 10px;
+        /* margin-top: 4px; */
+     }
+     .Buy a{
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+        background-color: #1c95b0;
+        border: 1px solid #1c95b0;
+        width: 50%;
+        padding: 10px 48px;
+     }
+     .Buy{
+        margin-top: 20px;
+     }
+     .See a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 17px;
+        background-color: #fdfdfd;
+        border: 1px solid #fdfdfd;
+        width: 50%;
+        padding: 10px 48px;
+        
+     }
+     .See{
+        margin-top: 20px;
+     }
+     .See a:hover{
+        background-color: transparent;
+        border: 1px solid #fdfdfd;
+        color: white;
+     }
+     .Buy a:hover{
+        background-color: transparent;
+        border: 1px solid #1c95b0;
+        color: #1c95b0;
+     }
+     /* <!-- why shop with us  --> */
+    .why-shop{
+        text-align: center;
+        margin-top: 3%;
+      
+    }
+    .why-shop h2{
+        font-size: 31px;
+        font-weight: 700;
+    }
+    /* vehicles section  */
+    .vehicle-main{
+       display: flex;
+       justify-content: center;
+       gap: 40px;
+       margin-top: 3%;
+    }
+    .vehcles-sub{
+        background-color: rgb(236, 236, 236);
+        height: 200px;
+        width: 26%;
+        text-align: center;
+    }
+    .icons-vehicle{
+        text-align: center;
+        padding-top: 10%;
+    }
+    .icons-vehicle img{
+       width: 10%;
+    }
+    .icons-vehicle p{
+        font-size: 20px;
+    }
+    /* violet banner  */
+    .violet-banner{
+        background-color: #6929a5;
+        height: 650px;
+        display: flex;
+        border-radius: 15px 15px 15px 15px;
+        margin-top: 6%;
+    }
+    .violet-banner-left-image{
+        width: 50%;
+    }
+    .violet-banner-left-image img{
+        width: 72%;
+        margin-left: 10%;
+        margin-top: 4%;
+    }
+    .violet-banner-right-contents{
+        width: 45%;
+        margin-top: 16%;
+        color: #fff;
+    }
+    .violet-banner-right-contents h3{
+        font-size: 33px;
+        font-weight: 700;
+        
+    }
+    .violet-banner-right-contents p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .link-violet{
+        display: flex;
+        gap: 20px;
+    }
+    .buy2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        background-color: #fdfdfd;
+        border: 1px solid #1c95b0;
+        width: 50%;
+        padding: 10px 48px;
+     }
+     .buy2{
+        margin-top: 20px;
+     }
+     .see2 a{
+        text-decoration: none;
+        color: #fdfdfd;
+        font-size: 17px;
+        background-color: #9242dd;
+        border: 1px solid #fdfdfd;
+        width: 50%;
+        padding: 10px 48px;
+        
+     }
+     .see2{
+        margin-top: 20px;
+     }
+     .see2 a:hover{
+        background-color: transparent;
+        border: 1px solid #fdfdfd;
+        color: white;
+     }
+     .buy2 a:hover{
+        background-color: transparent;
+        border: 1px solid #fdfdfd;
+        color: #fdfdfd;
+     }
+     /* conact-us */
+     .conact-us{
+        font-weight: 600;
+     }
+
+
+
 
 
 
@@ -228,5 +511,286 @@
     .latest{
         text-align: center;
     }
+         /* head latest  */
+  
+    .latest h2{
+    font-size: 28px;
+    font-weight: 700;
+     }
+
+    /* cards */
+     /* cards section  main*/
+ .cards-only{
+    display: inline;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 3%;
+ }
+  /* cards only sec  */
+ .cards-one{
+    background-color:rgb(236, 236, 236);
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    
+ }
+     /* down section  */
+.price{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    margin: auto;
+    font-weight: 630;
+    /* border: 1px solid red; */
+    margin-top: 15%;
+    
+}
+.view-all{
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 30%;
+ }
+ 
+ .view-all a:hover{
+     color: #d1516d;
+     background-color: transparent;
+ }
+  /* blue -banner section   */
+  .blue-banner-main{
+    background-color: #7fd7eb;
+    height: 700px;
+    border-radius: 12px 12px 12px 12px;
+    margin-top: 6%;
+    display: inline-block;
+     width: 100%;
+    /* justify-content: space-between; */
+ } 
+  /* contents only  */
+ .blue-banner-right-contents{
+    margin-top: 10%;
+    width: 100%;
+    color: #fff;
+    margin-left: 4%;
+ }
+ .blue-banner-right-contents h3{
+     font-size: 35px;
+     font-weight: 700;
+ } 
+ .blue-banner-right-contents p{
+    font-size: 15px;
+    font-weight: 400;
+    
+ }
+  /* images   */
+ .blue-images-left{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 0%;
+ }
+ .blue-images-left img{
+    width: 100%;
+ }
+ /* link only  */
+ .blue-banner-links{
+    display: inline;
+    gap: 10px;
+    /* margin-top: 4px; */
+ }
+ .Buy a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    background-color: #1c95b0;
+    border: 1px solid #1c95b0;
+    width: 50%;
+    padding: 10px 48px;
+ }
+ .Buy{
+    margin-top: 50px;
+ }
+ .See a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    background-color: #fdfdfd;
+    border: 1px solid #fdfdfd;
+    width: 50%;
+    padding: 10px 48px;
+    
+ }
+ .See{
+    margin-top: 36px;
+ }
+ .See a:hover{
+    background-color: transparent;
+    border: 1px solid #fdfdfd;
+    color: white;
+ }
+ .Buy a:hover{
+    background-color: transparent;
+    border: 1px solid #1c95b0;
+    color: #1c95b0;
+ }
+      /* why shop heading  */
+ .why-shop{
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  
+}
+    /* vehicles section  */
+    .vehicle-main{
+        display: inline;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 10%;
+     }
+     .vehcles-sub{
+         background-color: rgb(236, 236, 236);
+         height: 200px;
+         width: 100%;
+         text-align: center;
+         margin-top: 10%;
+     }
+     .icons-vehicle{
+         text-align: center;
+         padding-top: 10%;
+     }
+     .icons-vehicle img{
+        width: 10%;
+     }
+     .icons-vehicle p{
+         font-size: 20px;
+     }
+       /* violet banner  */
+    .violet-banner{
+        background-color: #6929a5;
+        height: 950px;
+        display: inline-block;
+        border-radius: 15px 15px 15px 15px;
+        margin-top: 6%;
+      
+    }
+    .violet-banner-left-image{
+        width: 100%;
+    }
+    .violet-banner-left-image img{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 4%;
+    }
+    .violet-banner-right-contents{
+        width: 100%;
+        margin-top: 16%;
+        color: #fff;
+        margin-left: 3%;
+    }
+    .violet-banner-right-contents h3{
+        font-size: 33px;
+        font-weight: 700;
+        
+    }
+    .violet-banner-right-contents p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .link-violet{
+        display: inline;
+        gap: 20px;
+   
+    }
+    .buy2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        background-color: #fdfdfd;
+        border: 1px solid #1c95b0;
+        width: 50%;
+        padding: 10px 38px;
+     }
+     .buy2{
+        margin-top: 20%;
+     }
+     .see2 a{
+        text-decoration: none;
+        color: #fdfdfd;
+        font-size: 17px;
+        background-color: #9242dd;
+        border: 1px solid #fdfdfd;
+        width: 50%;
+        padding: 10px 38px;
+        
+     }
+     .see2{
+        margin-top: 10%;
+     }
+     .see2 a:hover{
+        background-color: transparent;
+        border: 1px solid #fdfdfd;
+        color: white;
+     }
+     .buy2 a:hover{
+        background-color: transparent;
+        border: 1px solid #fdfdfd;
+        color: #fdfdfd;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* images colllections  */
+     .img-one{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 22%;
+    
+    }
+    .img-two{
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 30%; 
+    }
+    .img-three{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 32%; 
+    }
+    .img-four{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 40%; 
+    
+    }
+    .img-five{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 20%; 
+    
+    }
+    .img-six{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 29%; 
+    }
+    .img-seven{
+        width: 40%;
+        margin-left: 28%;
+        margin-top: 34%; 
+    }
+    .img-eight{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 28%; 
+    }
+
 
 }
